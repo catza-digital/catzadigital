@@ -151,6 +151,57 @@
       transform: translateY(0);
     }
   </style>
+
+  <!-- REDISEÑO VISUAL CATZADIGITAL 2.0 · Estética SaaS premium original -->
+  <style>
+    :root{--catza-ink:#071326;--catza-cyan:#45dbe8;--catza-teal:#31e3b2;--catza-border:rgba(133,199,227,.2)}
+    html{scroll-padding-top:88px}
+    body{background:#070e20;color:#f7fbff;font-feature-settings:"ss01" on}
+    #navbar{background:rgba(7,15,32,.86)!important;border-bottom:1px solid rgba(107,185,219,.18)!important;box-shadow:0 12px 45px rgba(1,8,25,.2)}
+    #navbar>div>div{min-height:82px}
+    #navbar nav a{font-weight:600;letter-spacing:-.01em}
+    #inicio{position:relative;isolation:isolate;background:radial-gradient(ellipse at 82% 25%,rgba(18,186,208,.16),transparent 38%),radial-gradient(ellipse at 12% 80%,rgba(36,211,139,.09),transparent 45%),#081329!important;padding-top:90px!important;padding-bottom:112px!important}
+    #inicio::after{content:"";pointer-events:none;position:absolute;left:0;right:0;bottom:0;height:90px;background:linear-gradient(0deg,#081024,transparent);z-index:-1}
+    #inicio h1{font-size:clamp(2.8rem,5.1vw,5.15rem)!important;line-height:1.07!important;letter-spacing:-.06em!important;max-width:850px}
+    #inicio p{max-width:680px;line-height:1.75!important}
+    #inicio .lg\:col-span-7{position:relative;z-index:1}
+    #inicio .lg\:col-span-5>div{transform:rotate(1.2deg);border-radius:32px!important;background:linear-gradient(142deg,rgba(56,211,227,.48),rgba(26,44,90,.65),rgba(34,211,158,.2))!important;box-shadow:0 34px 105px rgba(0,0,0,.47),0 0 95px rgba(17,182,205,.13)!important}
+    #inicio .lg\:col-span-5>div>div{border-radius:28px!important;background:linear-gradient(155deg,#132d4c,#0a1833 65%,#102743)!important}
+    #inicio .lg\:col-span-5 .space-y-3\.5>div{box-shadow:0 9px 26px rgba(0,0,0,.2)}
+    #inicio .lg\:col-span-5::before{content:"IA + WhatsApp";display:block;position:relative;margin:0 0 18px auto;width:max-content;background:rgba(7,28,47,.82);color:#a7f5e4;border:1px solid rgba(49,227,178,.4);border-radius:999px;padding:9px 17px;font-weight:800;font-size:12px;letter-spacing:.08em}
+    #inicio a[href="#contacto"],.comparison-cta{background:linear-gradient(110deg,#3de4ec,#3fe2bc)!important;color:#041b2a!important;box-shadow:0 14px 45px rgba(15,207,198,.23)!important;border:0;transition:transform .2s,box-shadow .2s}
+    #inicio a[href="#contacto"]:hover,.comparison-cta:hover{transform:translateY(-3px);box-shadow:0 19px 54px rgba(15,207,198,.36)!important}
+    main>section:not(#inicio){position:relative}
+    main>section:not(#inicio):nth-of-type(even){background:linear-gradient(140deg,#0c1b35,#091429 75%)!important}
+    main>section:not(#inicio):nth-of-type(odd){background:#081124!important}
+    main h2{letter-spacing:-.045em!important;line-height:1.14!important}
+    main h3{letter-spacing:-.025em}
+    main .reveal-section{scroll-margin-top:92px}
+    #servicios article,#beneficios .grid>div,#sectores article,#como-funciona .grid>div:not(.absolute){box-shadow:0 18px 48px rgba(0,0,0,.13);background:linear-gradient(160deg,rgba(21,43,72,.93),rgba(11,25,48,.96))!important;border-color:rgba(127,195,222,.18)!important;border-radius:23px!important;transition:transform .25s,border-color .25s,box-shadow .25s}
+    #servicios article:hover,#sectores article:hover,#beneficios .grid>div:hover{transform:translateY(-5px);border-color:rgba(56,214,217,.56)!important;box-shadow:0 22px 60px rgba(3,160,180,.12)}
+    #servicios article:last-child{background:linear-gradient(135deg,#133850,#102744)!important;border-color:rgba(57,217,215,.4)!important}
+    #demo .lg\:col-span-7,#demo .lg\:col-span-5>div,#contacto form,#contacto .rounded-3xl,#faq .rounded-2xl{box-shadow:0 25px 55px rgba(0,0,0,.2);border-color:rgba(118,189,213,.24)!important}
+    #demo .lg\:col-span-7{border:5px solid #1b3451!important;border-radius:26px!important;overflow:hidden}
+    #demo .lg\:col-span-7>div:first-child{background:#153a43!important}
+    #contacto form{background:linear-gradient(155deg,#132d48,#101b37)!important}
+    #contacto button[type="submit"],header a[href^="https://wa.me"]{box-shadow:0 12px 38px rgba(37,211,102,.2)!important}
+    #contacto input,#contacto select,#contacto textarea{transition:border-color .18s,box-shadow .18s}
+    #contacto input:focus,#contacto select:focus,#contacto textarea:focus{box-shadow:0 0 0 3px rgba(58,214,221,.14)}
+    .comparison-section{background:linear-gradient(135deg,#09142a,#0e2440 55%,#0b1730)!important}
+    .comparison-card{background:rgba(18,34,59,.72);color:#eaf6ff;box-shadow:0 25px 60px rgba(0,0,0,.18)}
+    .comparison-card h3{color:white}
+    .comparison-card li{position:relative;padding-left:32px;line-height:1.55}
+    .comparison-card li:before{content:"";position:absolute;left:1px;top:9px;width:10px;height:10px;border-radius:50%;background:#76829a}
+    .automated-card{background:linear-gradient(145deg,rgba(19,87,99,.55),rgba(16,46,70,.72));box-shadow:0 30px 90px rgba(2,187,167,.12)}
+    .automated-card li:before{background:#41e4b6;box-shadow:0 0 0 4px rgba(65,228,182,.12)}
+    .comparison-icon{width:39px;height:39px;display:grid;place-items:center;border-radius:13px;background:rgba(137,151,170,.17);font-weight:900;font-size:22px;color:#ff9ca7}
+    .automated-card .comparison-icon{background:rgba(43,224,170,.16);color:#44e3ad}
+    #faq .rounded-2xl{background:#13243e!important}
+    footer{background:#070e1d!important}
+    @media(max-width:1023px){#inicio{padding-top:60px!important}#inicio h1{font-size:clamp(2.6rem,7vw,4.5rem)!important}#inicio .lg\:col-span-5>div{transform:none}}
+    @media(max-width:639px){#inicio{padding-top:44px!important;padding-bottom:70px!important}#inicio h1{font-size:clamp(2.4rem,10vw,3.2rem)!important}#inicio p{line-height:1.6!important}#navbar>div>div{min-height:68px}main h2{font-size:clamp(1.85rem,7vw,2.4rem)!important}.comparison-card{padding:24px!important}}
+    @media(prefers-reduced-motion:reduce){.animate-float-slow,.wa-pulse-ring::before{animation:none!important}.reveal-section{opacity:1!important;transform:none!important;transition:none!important}*{scroll-behavior:auto!important}}
+  </style>
 </head>
 <body class="antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
 
@@ -266,12 +317,12 @@
 
             <!-- Titular Principal (AIDA - Atención) -->
             <h1 class="font-display font-extrabold text-3xl sm:text-5xl lg:text-[3.35rem] text-white tracking-tight leading-[1.12] mb-6">
-              Convierte tus conversaciones de <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-whatsapp via-cyan-300 to-cyan-400">WhatsApp</span> en oportunidades comerciales organizadas
+              vende mas <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-whatsapp via-cyan-300 to-cyan-400">con IA</span>
             </h1>
 
             <!-- Subtitular (AIDA - Interés) -->
             <p class="text-base sm:text-lg lg:text-xl text-slate-300 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-8">
-              En <strong class="text-white font-semibold">CATZADIGITAL</strong> diseñamos chatbots de ventas con inteligencia artificial configurados a medida para empresas y emprendedores cruceños: responde consultas al instante, presenta tus productos o servicios y capta prospectos listos para tu equipo comercial.
+              En <strong class="text-white font-semibold">CATZADIGITAL</strong> creamos chatbots de ventas con IA que atienden consultas, presentan tus productos y organizan prospectos en WhatsApp. Tu equipo se concentra en las conversaciones que más importan.
             </p>
 
             <!-- Botones de Llamada a la Acción (CTAs) -->
@@ -280,7 +331,7 @@
                 href="#contacto"
                 class="inline-flex items-center justify-center gap-2.5 px-6 py-4 rounded-2xl bg-gradient-to-r from-cyan-400 to-cyan-500 hover:from-cyan-300 hover:to-cyan-400 text-slate-950 font-bold text-base transition-all shadow-glow-cyan active:scale-[0.99]"
               >
-                <span>Solicitar una demostración</span>
+                <span>Solicitar mi demostración</span>
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24" aria-hidden="true">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
@@ -986,6 +1037,29 @@
             </button>
           </article>
         </div>
+      </div>
+    </section>
+
+
+    <!-- COMPARATIVA COMERCIAL: PRESENTACIÓN INSPIRADA EN PÁGINAS SaaS DE ALTA CONVERSIÓN -->
+    <section id="comparativa" class="comparison-section py-16 sm:py-24 reveal-section">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center mb-12">
+          <span class="text-xs font-bold uppercase tracking-widest text-cyan-400">Una forma más inteligente de atender</span>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-white mt-3 mb-4">De responder mensajes todo el día a <span class="text-cyan-300">atender con estrategia</span></h2>
+          <p class="text-slate-300">Compara la dinámica de una atención exclusivamente manual con un flujo de WhatsApp automatizado y configurado para tu negocio.</p>
+        </div>
+        <div class="comparison-grid grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <article class="comparison-card manual-card rounded-3xl p-7 sm:p-9 border border-slate-700/70">
+            <div class="flex items-center gap-3 mb-6"><span class="comparison-icon">✕</span><h3 class="font-display text-xl font-bold">Atención solo manual</h3></div>
+            <ul class="space-y-5 text-sm sm:text-base"><li>Las consultas esperan cuando el equipo está ocupado.</li><li>Las mismas preguntas consumen tiempo todos los días.</li><li>Los datos del prospecto quedan dispersos en diferentes chats.</li><li>La derivación depende de que alguien revise cada mensaje.</li></ul>
+          </article>
+          <article class="comparison-card automated-card rounded-3xl p-7 sm:p-9 border border-cyan-400/40">
+            <div class="flex items-center gap-3 mb-6"><span class="comparison-icon">✓</span><h3 class="font-display text-xl font-bold">Con CATZADIGITAL</h3></div>
+            <ul class="space-y-5 text-sm sm:text-base"><li>Respuestas iniciales automatizadas según las reglas del negocio.</li><li>Información frecuente disponible de forma inmediata.</li><li>Prospectos clasificados con el contexto de su consulta.</li><li>Derivación a un asesor cuando hace falta atención humana.</li></ul>
+          </article>
+        </div>
+        <div class="text-center mt-9"><a href="#contacto" class="comparison-cta inline-flex items-center justify-center gap-2 px-7 py-4 rounded-2xl font-bold">Quiero automatizar mi WhatsApp <span aria-hidden="true">→</span></a></div>
       </div>
     </section>
 
